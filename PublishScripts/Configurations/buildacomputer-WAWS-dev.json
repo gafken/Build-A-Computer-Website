@@ -6,11 +6,21 @@
         },
         "databases": [
             {
-                "connectionStringName": "DefaultConnection",
+                "connectionStringName": "Parts",
                 "databaseName": "buildacomputer_db",
                 "serverName": "",
                 "user": "jyrm",
-                "password": "",
+                "password": "Password_1",
+                "edition": "",
+                "size": "",
+                "collation": "",
+                "location": "East US"
+            },{
+                "connectionStringName": "Users_and_Builds",
+                "databaseName": "UserBuild",
+                "serverName": "",
+                "user": "jyrm",
+                "password": "Password_1",
                 "edition": "",
                 "size": "",
                 "collation": "",
