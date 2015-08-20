@@ -1,0 +1,21 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "buildacomputer",
+            "location": "East US"
+        },
+        "databases": [
+            {
+                "connectionStringName": "DefaultConnection",
+                "databaseName": "buildacomputer_db",
+                "serverName": "",
+                "user": "jyrm",
+                "password": "",
+                "edition": "",
+                "size": "",
+                "collation": "",
+                "location": "East US"
+            }
+        ]
+    }
+}
