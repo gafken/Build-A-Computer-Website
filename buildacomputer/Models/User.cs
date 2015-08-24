@@ -16,7 +16,6 @@ namespace buildacomputer.Models //creates the model used for users
         public string answer {get;set;}
         public string title { get; set; }
 
-        public virtual AspNetUsers AspNetUsers { get; set; }
         public virtual ICollection<UserBuilds> UserBuilds { get; set; }
     }
 }
