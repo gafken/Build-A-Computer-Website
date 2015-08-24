@@ -5,7 +5,7 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace buildacomputer.Models
+namespace buildacomputer.Models //creates the model used for users
 {
     public class User
     {
