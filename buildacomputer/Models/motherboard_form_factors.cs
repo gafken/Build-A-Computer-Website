@@ -8,7 +8,7 @@ namespace buildacomputer.Models
 {
     public class motherboard_form_factors
     {
-        public int motherboard_form_factor_id { get; set; }
+        public long motherboard_form_factor_id { get; set; }
 
         public string motherboard_form_factor_name { get; set; }
 

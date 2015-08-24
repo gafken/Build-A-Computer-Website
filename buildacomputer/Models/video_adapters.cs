@@ -7,21 +7,21 @@ namespace buildacomputer.Models
 {
     public class video_adapters
     {
-        public int video_adapter_id { get; set; }
+        public long video_adapter_id { get; set; }
 
         public string video_adapter_name { get; set; }
 
-        public int video_adapter_memory_mb { get; set; }
+        public long video_adapter_memory_mb { get; set; }
 
-        public int manufacturer_id { get; set; }
+        public long manufacturer_id { get; set; }
 
-        public int expansion_slot_id { get; set; }
+        public long expansion_slot_id { get; set; }
 
-        public int gpu_id { get; set; }
+        public long gpu_id { get; set; }
 
-        public int power_supply_standard_id { get; set; }
+        public long power_supply_standard_id { get; set; }
 
-        public int memory_type_id { get; set; }
+        public long memory_type_id { get; set; }
 
         public virtual manufacturers manufacturers { get; set; }
         public virtual expansion_slots expansion_slots { get; set; }

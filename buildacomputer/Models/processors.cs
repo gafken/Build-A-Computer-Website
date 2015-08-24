@@ -7,19 +7,19 @@ namespace buildacomputer.Models
 {
     public class processors
     {
-        public int processor_id { get; set; }
+        public long processor_id { get; set; }
 
         public string processor_name { get; set; }
 
-        public int frequency_mhz { get; set; }
+        public long frequency_mhz { get; set; }
 
-        public int processor_power_consumption_w { get; set; }
+        public long processor_power_consumption_w { get; set; }
 
-        public int manufacturer_id { get; set; }
+        public long manufacturer_id { get; set; }
 
-        public int processor_socket_id { get; set; }
+        public long processor_socket_id { get; set; }
 
-        public int processor_core_id { get; set; }
+        public long processor_core_id { get; set; }
 
         public virtual manufacturers manufacturers { get; set; }
         public virtual processor_sockets processor_sockets { get; set; }

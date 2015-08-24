@@ -7,7 +7,7 @@ namespace buildacomputer.Models
 {
     public class gpus
     {
-        public int gpu_id { get; set; }
+        public long gpu_id { get; set; }
 
         public string gpu_name { get; set; }
 
@@ -17,7 +17,7 @@ namespace buildacomputer.Models
 
         public string gpu_opengl_version { get; set; }
 
-        public int manufacturer_id { get; set; }
+        public long manufacturer_id { get; set; }
 
         public virtual manufacturers manufacturers { get; set; }
         public virtual ICollection<motherboards> motherboards { get; set; }

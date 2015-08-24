@@ -8,7 +8,7 @@ namespace buildacomputer.Models
 {
     public class computer_case_sizes
     {
-        public int computer_case_size_id { get; set; }
+        public long computer_case_size_id { get; set; }
 
         public string computer_case_size_name { get; set; }
 

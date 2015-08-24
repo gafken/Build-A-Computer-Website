@@ -8,7 +8,7 @@ namespace buildacomputer.Models
 {
     public class optical_drive_features
     {
-        public int optical_drive_feature_id { get; set; }
+        public long optical_drive_feature_id { get; set; }
 
         public string optical_drive_feature_name { get; set; }
 

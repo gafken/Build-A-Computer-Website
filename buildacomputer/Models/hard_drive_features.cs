@@ -8,7 +8,7 @@ namespace buildacomputer.Models
 {
     public class hard_drive_features
     {
-        public int hard_drive_feature_id { get; set; }
+        public long hard_drive_feature_id { get; set; }
 
         public string hard_drive_feature_name { get; set; }
 

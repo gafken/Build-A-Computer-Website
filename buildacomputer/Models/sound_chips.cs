@@ -7,13 +7,13 @@ namespace buildacomputer.Models
 {
     public class sound_chips
     {
-        public int sound_chip_id { get; set; }
+        public long sound_chip_id { get; set; }
 
         public string sound_chip_name { get; set; }
 
-        public int manufacturer_id { get; set; }
+        public long manufacturer_id { get; set; }
 
-        public int sound_channel_standard_id { get; set; }
+        public long sound_channel_standard_id { get; set; }
 
         public virtual sound_channel_standards sound_channel_standards { get; set; }
         public virtual manufacturers manufacturers { get; set; }

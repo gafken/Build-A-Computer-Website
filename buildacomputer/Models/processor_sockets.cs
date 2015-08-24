@@ -8,7 +8,7 @@ namespace buildacomputer.Models
 {
     public class processor_sockets
     {
-        public int processor_socket_id { get; set; }
+        public long processor_socket_id { get; set; }
 
         public string processor_socket_name { get; set; }
 

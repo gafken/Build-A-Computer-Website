@@ -8,7 +8,7 @@ namespace buildacomputer.Models
 {
     public class memory_types
     {
-        public int memory_type_id { get; set; }
+        public long memory_type_id { get; set; }
 
         public string memory_type_name { get; set; }
 

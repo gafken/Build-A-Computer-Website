@@ -8,7 +8,7 @@ namespace buildacomputer.Models
 {
     public class power_supply_standards
     {
-        public int power_supply_standard_id { get; set; }
+        public long power_supply_standard_id { get; set; }
 
         public string power_supply_standard_name { get; set; }
 

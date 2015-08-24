@@ -7,11 +7,11 @@ namespace buildacomputer.Models
 {
     public class motherboard_sb_chipsets
     {
-        public int motherboard_sb_chipset_id { get; set; }
+        public long motherboard_sb_chipset_id { get; set; }
 
         public string motherboard_sb_chipset_name { get; set; }
 
-        public int manufacturer_id { get; set; }
+        public long manufacturer_id { get; set; }
 
         public virtual ICollection<motherboards> motherboards { get; set; }
         public virtual manufacturers manufacturers { get; set; }

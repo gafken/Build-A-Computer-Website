@@ -7,7 +7,7 @@ namespace buildacomputer.Models
 {
     public class peripheral_interfaces
     {
-        public int peripheral_interface_id { get; set; }
+        public long peripheral_interface_id { get; set; }
 
         public string peripheral_interface_name { get; set; }
 

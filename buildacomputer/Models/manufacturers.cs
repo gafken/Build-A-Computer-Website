@@ -8,7 +8,7 @@ namespace buildacomputer.Models
 {
     public class manufacturers
     {
-        public int manufacturer_id { get; set; }
+        public long manufacturer_id { get; set; }
 
         public string manufacturer_name { get; set; }
 

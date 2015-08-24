@@ -8,7 +8,7 @@ namespace buildacomputer.Models
 {
     public class ethernet_standards
     {
-        public int ethernet_standard_id { get; set; }
+        public long ethernet_standard_id { get; set; }
 
         public string ethernet_standard_name { get; set; }
 

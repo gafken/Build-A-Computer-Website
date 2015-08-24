@@ -7,13 +7,13 @@ namespace buildacomputer.Models
 {
     public class lan_chips
     {
-        public int lan_chip_id { get; set; }
+        public long lan_chip_id { get; set; }
 
         public string lan_chip_name { get; set; }
 
-        public int manufacturer_id { get; set; }
+        public long manufacturer_id { get; set; }
 
-        public int ethernet_standard_id { get; set; }
+        public long ethernet_standard_id { get; set; }
 
         public virtual ethernet_standards ethernet_standards { get; set; }
         public virtual manufacturers manufacturers { get; set; }

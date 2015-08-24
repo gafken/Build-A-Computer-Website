@@ -8,7 +8,7 @@ namespace buildacomputer.Models
 {
     public class bus_interfaces
     {
-        public int bus_interface_id { get; set; }
+        public long bus_interface_id { get; set; }
 
         public string bus_interface_name { get; set; }
 

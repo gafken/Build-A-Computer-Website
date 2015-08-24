@@ -7,7 +7,7 @@ namespace buildacomputer.Models
 {
     public class expansion_slots
     {
-        public int expansion_slot_id { get; set; }
+        public long expansion_slot_id { get; set; }
 
         public string expansion_slot_name { get; set; }
 

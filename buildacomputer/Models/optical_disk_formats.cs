@@ -8,7 +8,7 @@ namespace buildacomputer.Models
 {
     public class optical_disk_formats
     {
-        public int optical_disk_format_id { get; set; }
+        public long optical_disk_format_id { get; set; }
 
         public string optical_disk_format_name { get; set; }
 

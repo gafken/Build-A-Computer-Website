@@ -8,7 +8,7 @@ namespace buildacomputer.Models
 {
     public class drive_bay_widths
     {
-        public int drive_bay_width_id { get; set; }
+        public long drive_bay_width_id { get; set; }
 
         public string drive_bay_width_name { get; set; }
 

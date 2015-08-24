@@ -7,17 +7,17 @@ namespace buildacomputer.Models
 {
     public class optical_drives
     {
-        public int optical_drive_id { get; set; }
+        public long optical_drive_id { get; set; }
 
         public string optical_drive_name { get; set; }
 
-        public int buffer_kb { get; set; }
+        public long buffer_kb { get; set; }
 
-        public int manufacturer_id { get; set; }
+        public long manufacturer_id { get; set; }
 
-        public int bus_interface_id { get; set; }
+        public long bus_interface_id { get; set; }
 
-        public int drive_bay_width_id { get; set; }
+        public long drive_bay_width_id { get; set; }
 
         public virtual manufacturers manufacturers { get; set; }
         public virtual bus_interfaces bus_interfaces { get; set; }
