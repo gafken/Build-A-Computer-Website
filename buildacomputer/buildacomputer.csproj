@@ -165,7 +165,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Build.cs" />
     <Compile Include="Models\bus_interfaces.cs" />
     <Compile Include="Models\computer_cases.cs" />
     <Compile Include="Models\computer_case_sizes.cs" />
@@ -187,7 +186,26 @@
     <Compile Include="Models\l_optical_drives_optical_disk_formats.cs" />
     <Compile Include="Models\l_optical_drives_optical_drive_features.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\manufacturers.cs" />
+    <Compile Include="Models\memories.cs" />
+    <Compile Include="Models\memory_types.cs" />
+    <Compile Include="Models\motherboards.cs" />
+    <Compile Include="Models\motherboard_form_factors.cs" />
+    <Compile Include="Models\motherboard_nb_chipsets.cs" />
+    <Compile Include="Models\motherboard_sb_chipsets.cs" />
+    <Compile Include="Models\optical_disk_formats.cs" />
+    <Compile Include="Models\optical_drives.cs" />
+    <Compile Include="Models\optical_drive_features.cs" />
+    <Compile Include="Models\peripheral_interfaces.cs" />
+    <Compile Include="Models\power_supplies.cs" />
+    <Compile Include="Models\power_supply_standards.cs" />
+    <Compile Include="Models\processors.cs" />
+    <Compile Include="Models\processor_cores.cs" />
+    <Compile Include="Models\processor_sockets.cs" />
+    <Compile Include="Models\sound_cards.cs" />
+    <Compile Include="Models\sound_channel_standards.cs" />
+    <Compile Include="Models\sound_chips.cs" />
+    <Compile Include="Models\video_adapters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
