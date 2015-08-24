@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,6 +8,7 @@ namespace buildacomputer.Models
 {
     public class optical_drives
     {
+        [Key]
         public long optical_drive_id { get; set; }
 
         public string optical_drive_name { get; set; }

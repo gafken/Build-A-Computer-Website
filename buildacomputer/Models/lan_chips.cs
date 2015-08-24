@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,6 +8,7 @@ namespace buildacomputer.Models
 {
     public class lan_chips
     {
+        [Key]
         public long lan_chip_id { get; set; }
 
         public string lan_chip_name { get; set; }

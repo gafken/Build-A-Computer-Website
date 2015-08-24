@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,6 +8,7 @@ namespace buildacomputer.Models
 {
     public class computer_cases
     {
+        [Key]
         public long computer_case_id { get; set; }
 
         public long computer_case_name { get; set; }

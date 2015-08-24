@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,6 +8,7 @@ namespace buildacomputer.Models
 {
     public class power_supplies
     {
+        [Key]
         public long power_supply_id { get; set; }
 
         public string power_supply_name { get; set; }

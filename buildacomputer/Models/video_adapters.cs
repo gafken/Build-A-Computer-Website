@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,6 +8,7 @@ namespace buildacomputer.Models
 {
     public class video_adapters
     {
+        [Key]
         public long video_adapter_id { get; set; }
 
         public string video_adapter_name { get; set; }

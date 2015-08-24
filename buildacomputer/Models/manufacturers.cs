@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using buildacomputer.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace buildacomputer.Models
 {
     public class manufacturers
     {
+        [Key]
         public long manufacturer_id { get; set; }
 
         public string manufacturer_name { get; set; }

@@ -9,6 +9,7 @@ namespace buildacomputer.Models //creates the model used for users
 {
     public class User
     {
+        [Key]
         public string Id { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }

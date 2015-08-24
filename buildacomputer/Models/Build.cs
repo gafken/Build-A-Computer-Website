@@ -9,6 +9,7 @@ namespace buildacomputer.Models
 {
     public class Build
     {
+        [Key]
         public long buildID { get; set; }
         public long motherboard_id { get; set; }
         public long computer_case_id { get; set; }
@@ -18,6 +19,7 @@ namespace buildacomputer.Models
         public long processer_id { get; set; }
         public long? sound_card_id { get; set; }
         public long? video_adapter_id { get; set; }
+        public long memory_id { get; set; }
         public string buildType { get; set; }
         public int iterator { get; set; }
         public DateTime BuildTime { get; set; }
@@ -31,5 +33,6 @@ namespace buildacomputer.Models
         public virtual processors processors { get; set; }
         public virtual sound_cards sound_cards { get; set; }
         public virtual video_adapters video_adapters { get; set; }
+        public virtual memories memories { get; set; }
     }
 }

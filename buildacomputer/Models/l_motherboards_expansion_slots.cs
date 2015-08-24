@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,6 +8,7 @@ namespace buildacomputer.Models
 {
     public class l_motherboards_expansion_slots
     {
+        [Key]
         public long motherboard_id { get; set; }
 
         public long expansion_slot_id { get; set; }

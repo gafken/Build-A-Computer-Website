@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using buildacomputer.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace buildacomputer.Models
 {
     public class bus_interfaces
     {
+      [Key]
         public long bus_interface_id { get; set; }
 
         public string bus_interface_name { get; set; }

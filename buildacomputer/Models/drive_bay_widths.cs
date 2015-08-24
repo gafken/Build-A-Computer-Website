@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using buildacomputer.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace buildacomputer.Models
 {
     public class drive_bay_widths
     {
+        [Key]
         public long drive_bay_width_id { get; set; }
 
         public string drive_bay_width_name { get; set; }
