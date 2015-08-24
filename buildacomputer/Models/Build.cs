@@ -20,5 +20,15 @@ namespace buildacomputer.Models
         public long video_adapter_id { get; set; }
         public string buildType { get; set; }
         public int iterator { get; set; }
+
+        public virtual ICollection<User> User { get; set; }
+        public virtual motherboards motherboards { get; set; }
+        public virtual computer_cases computer_cases { get; set; }
+        public virtual hard_drives hard_drives { get; set; }
+        public virtual optical_drives optical_drives { get; set; }
+        public virtual power_supplies power_supplies { get; set; }
+        public virtual processors processors { get; set; }
+        public virtual sound_cards sound_cards { get; set; }
+        public virtual video_adapters video_adapters { get; set; }
     }
 }
