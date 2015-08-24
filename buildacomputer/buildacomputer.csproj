@@ -206,6 +206,7 @@
     <Compile Include="Models\sound_cards.cs" />
     <Compile Include="Models\sound_channel_standards.cs" />
     <Compile Include="Models\sound_chips.cs" />
+    <Compile Include="Models\UserBuilds.cs" />
     <Compile Include="Models\video_adapters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
