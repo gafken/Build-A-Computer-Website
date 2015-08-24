@@ -197,6 +197,7 @@
     <Compile Include="Models\optical_disk_formats.cs" />
     <Compile Include="Models\optical_drives.cs" />
     <Compile Include="Models\optical_drive_features.cs" />
+    <Compile Include="Models\PartsAndUsersContext.cs" />
     <Compile Include="Models\peripheral_interfaces.cs" />
     <Compile Include="Models\power_supplies.cs" />
     <Compile Include="Models\power_supply_standards.cs" />
