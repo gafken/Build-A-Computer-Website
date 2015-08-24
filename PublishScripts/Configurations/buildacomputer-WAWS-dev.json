@@ -7,7 +7,7 @@
         "databases": [
             {
                 "connectionStringName": "DefaultConnection",
-                "databaseName": "buildacomputer_db",
+                "databaseName": "computer_hardware",
                 "serverName": "",
                 "user": "jyrm",
                 "password": "Password_1",
@@ -15,7 +15,6 @@
                 "size": "",
                 "collation": "",
                 "location": "East US"
-                    //includes DB schema for part, users, and windows login all in one database
             }
         ]
     }
