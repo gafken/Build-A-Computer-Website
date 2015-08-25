@@ -17,7 +17,6 @@ namespace buildacomputer.Controllers
         // GET: Builds
         public ActionResult Index()
         {
-            long[] motherboard = db.motherboards.Select(m => m.motherboard_id);
 
 
             //var build = db.Build.Include(b => b.computer_cases).Include(b => b.hard_drives).Include(b => b.memories).Include(b => b.motherboards).Include(b => b.optical_drives).Include(b => b.power_supplies).Include(b => b.sound_cards).Include(b => b.video_adapters);

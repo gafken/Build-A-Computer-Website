@@ -5,6 +5,7 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Collections;
+using System.Data.Entity;
 
 namespace buildacomputer.Models
 {
@@ -14,8 +15,7 @@ namespace buildacomputer.Models
         {
 
         }
-
-        public Build(long[] mb, long[] pr, long[] me, long[] hd, long[] sc, long[] va, long[] od, long[] ps, long[] cc)
+        public Build(List<long> mb, List<long> pr, List<long> me, List<long> hd, List<long> sc, List<long> va, List<long> od, List<long> ps, List<long> cc)
         {
             //import all possible parts
             foreach (long x in mb)
@@ -62,6 +62,7 @@ namespace buildacomputer.Models
         public int iterator { get; set; }
         public DateTime BuildTime { get; set; }
         private List<List<long>> defValues;
+        private PartsAndUsersContext db = new PartsAndUsersContext();
 
         #region Possible parts
         public List<long> motherboard_ids { get; set; }
@@ -90,6 +91,7 @@ namespace buildacomputer.Models
         public void addMotherboard(long x)
         {
             motherboard_id = x;
+            addMotherboardHelper(x);
         }
         public void addComputer_case_id(long x)
         {
@@ -207,14 +209,14 @@ namespace buildacomputer.Models
             }
         }
 
-
         #region Private Helpers
-
-        private void addMotherboardHelper(Build build)
+        private void addMotherboardHelper(long? id)
         {
-            
+            if (id != null)
+            {
+                
+            }
         }
-
         #endregion
     }
 }
